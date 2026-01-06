@@ -32,3 +32,52 @@ Clone the repository and install the dependencies:
 git clone https://github.com/YOUR_GITHUB_USERNAME/sanadtech-pool-detection.git
 cd sanadtech-pool-detection
 pip install -r requirements.txt
+```
+## Usage
+
+Run the detection script from the project root:
+
+    python src/pool_detector.py path/to/your/image.jpg
+
+The script generates two output files in the project root:
+
+- output_image.jpg  
+  The image with detected pools outlined and labeled
+
+- coordinates.txt  
+  A detailed list of the points forming the shape of each detected pool
+
+## Sample Results
+
+The following examples demonstrate the script's ability to handle different environments, from residential backyards to complex resort layouts.
+
+### Detection Output
+
+Input Image  
+![Input Image](samples/input_sample.jpg)
+
+Detection Result  
+![Detection Result](output_image.jpg)
+
+Note: The script successfully filters out shadows and nearby gray structures while maintaining the curved boundaries of the water body.
+
+## Coordinate Format
+
+The coordinates.txt file provides high-density points for each pool, sorted by area:
+
+    --- Pool 1 ANALYSIS ---
+    Precision Points: 112 | Area: 15420 px
+    pt1: 412,105
+    pt2: 415,108
+    ...
+
+## Repository Structure
+
+    sanadtech-pool-detection/
+    ├── src/
+    │   └── pool_detector.py    # Main CLI detection logic
+    ├── samples/                # Sample input images for testing
+    ├── requirements.txt        # Required Python libraries
+    ├── coordinates.txt         # Generated coordinates (last run)
+    ├── output_image.jpg        # Annotated result (last run)
+    └── README.md               # Project documentation
