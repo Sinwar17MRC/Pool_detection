@@ -98,7 +98,7 @@ Point 010: [175, 71]
     ├── src/
     │   └── pool_detector.py    # Main CLI detection logic
     ├── samples/                # Sample input images for testing
-    ├── Outputs/                 # outputs for samples
+    ├── Outputs/                # outputs for samples
     ├── requirements.txt        # Required Python libraries
     ├── Input_Image             # Sample for test
     ├── coordinates.txt         # Generated coordinates (a sample)
