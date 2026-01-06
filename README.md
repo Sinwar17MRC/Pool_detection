@@ -54,7 +54,7 @@ The following examples demonstrate the script's ability to handle different envi
 ### Detection Output
 
 Input Image  
-![Input Image](samples/InputImage.jpg)
+![Input Image](InputImage.jpg)
 
 Detection Result  
 ![Detection Result](h.jpg)
@@ -67,15 +67,24 @@ The coordinates.txt file provides high-density points for each pool, sorted by a
    --- POOL 1 ANALYSIS ---
 Precision Points: 77 | Area: 884 px
 
-Point 001: [188, 62]//
+Point 001: [188, 62]
+
 Point 002: [187, 63]
+
 Point 003: [186, 63]
+
 Point 004: [185, 64]
+
 Point 005: [184, 64]
+
 Point 006: [181, 67]
+
 Point 007: [180, 67]
+
 Point 008: [178, 69]
+
 Point 009: [177, 69]
+
 Point 010: [175, 71]
 
 
