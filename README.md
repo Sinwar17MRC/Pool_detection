@@ -1,6 +1,6 @@
 # Aerial Pool Detection Tool
 
-This repository is the official repository for the ool detector tool. The project is a Command Line (CL) tool designed to detect swimming pools in aerial imagery using computer vision. It supports various pool shapes (rectangular, oval, and irregular) and handles complex environments like resorts or residential areas.
+This repository is the official repository for the pool detector tool. The project is a Command Line (CL) tool designed to detect swimming pools in aerial imagery using computer vision. It supports various pool shapes (rectangular, oval, and irregular) and handles complex environments like resorts or residential areas.
 
 ## Project Deliverables
 - **CLI Script**: A Python script to process images.
