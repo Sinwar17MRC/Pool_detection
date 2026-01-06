@@ -1,6 +1,6 @@
 # Aerial Pool Detection Tool
 
-This repository contains my submission for the Sanadtech PFE technical test. The project is a Command Line (CL) tool designed to detect swimming pools in aerial imagery using computer vision. It supports various pool shapes (rectangular, oval, and irregular) and handles complex environments like resorts or residential areas.
+This repository is the official repository for the ool detector tool. The project is a Command Line (CL) tool designed to detect swimming pools in aerial imagery using computer vision. It supports various pool shapes (rectangular, oval, and irregular) and handles complex environments like resorts or residential areas.
 
 ## Project Deliverables
 - **CLI Script**: A Python script to process images.
@@ -54,10 +54,10 @@ The following examples demonstrate the script's ability to handle different envi
 ### Detection Output
 
 Input Image  
-![Input Image](InputImage.jpg)
+![Input Image](Input_Image.jpg)
 
 Detection Result  
-![Detection Result](h.jpg)
+![Detection Result](result.jpg)
 
 
 ## Coordinate Format
@@ -98,7 +98,9 @@ Point 010: [175, 71]
     ├── src/
     │   └── pool_detector.py    # Main CLI detection logic
     ├── samples/                # Sample input images for testing
+    ├── Outputs/                 # outputs for samples
     ├── requirements.txt        # Required Python libraries
-    ├── coordinates.txt         # Generated coordinates (last run)
-    ├── h.jpg        # Annotated result (last run)
+    ├── Input_Image             # Sample for test
+    ├── coordinates.txt         # Generated coordinates (a sample)
+    ├── result.jpg              # Annotated result 
     └── README.md               # Project documentation
